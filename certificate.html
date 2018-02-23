@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head> <style><link rel="stylesheet" href="C:\Users\navin\Desktop\cnf\cnf.css"></style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- Website CSS style -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+<title>CMS</title>
+</head>
+
+	<body>
+	
+	<center><h1> Conference Management System </h1> </center>
+	<div class="container">
+			<div class="row main">
+				<div class="main-login main-center">
+				
+				<center><h3>Certificate</h3></center>
+				
+		<form action="certificate.php" method="POST">
+		
+		
+	
+			<div class="form-group">
+		<label for="auth_name" class="cols-sm-2 control-label"> Author Name </label>
+		<div class="cols-sm-10">
+				<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+		<input type="text" class="form-control" id="auth_name" name="auth_name" placeholder="Enter author name"
+			pattern="[a-z A-Z]{4,}" title ="Please enter more than 4 charcters"required>
+			</div>
+							</div>
+						</div>
+
+
+	
+
+
+<div class="form-group">
+	<label for="title" class="cols-sm-2 control-label"> Paper Title </label>
+		<div class="cols-sm-10">
+			<div class="input-group">
+				<span class="input-group-addon"><i class="fa fa-newspaper-o fa" aria-hidden="true"></i></span>
+		<input type="text" class="form-control" id="title" name="title" placeholder="Enter the title"
+			pattern="[a-zA-Z]{4,}" title ="Please enter more than 4 charcters"required>	
+</div>
+</div>
+</div>
+<div class="form-group">
+	<label for="cnf_name" class="cols-sm-2 control-label"> Conference Name </label>
+		<div class="cols-sm-10">
+			<div class="input-group">
+				<span class="input-group-addon"><i class="fa fa-pencil-square-o fa" aria-hidden="true"></i></span>
+		<input type="text" class="form-control" id="cnf" name="cnf" placeholder="Enter the confernce name"
+			pattern="[a-zA-Z]{4,}" title ="Please enter more than 4 charcters"required>	
+</div>
+</div>
+</div>
+<div class="form-group">
+	<label for="date" class="cols-sm-2 control-label">Date </label>
+		<div class="cols-sm-10">
+			<div class="input-group">
+				<span class="input-group-addon"><i class="fa fa-calendar fa" aria-hidden="true"></i></span>
+		<input type="date" class="form-control" id="date" name="date" placeholder="Enter the confernce date"
+			required>	
+</div>
+</div>
+</div>
+	
+			<br><br>
+	<div class="form-group ">
+			<input type="submit" name="submit" class="btn btn-primary btn-lg btn-block login-button" value="Generate">
+			</div>
+
+		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html><html>
+<head>
+

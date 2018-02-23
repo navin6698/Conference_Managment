@@ -1,0 +1,45 @@
+body{
+	background-color:cyan;
+	font-family:Calibri;
+}
+
+.test1{
+	position:relative;
+	background:#ffdae1;
+	margin:25px auto;
+	width:450px;
+	height:400px;
+	
+}
+
+.test2{
+	font-size:100%;
+	color:#000;
+	
+	width:500px;
+	
+	padding:2px 5px;
+	margin:25px 70px;
+}
+.test3{
+	
+	position:relative;
+	width:350px;
+	margin:20px auto;
+}
+
+a{
+	text-decoration:none;
+}
+
+input{
+	
+	width:100px;
+	height:50px;
+	background:green;
+	margin:10px 80px;
+}
+
+
+	
+}
